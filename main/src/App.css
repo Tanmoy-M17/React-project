@@ -1,0 +1,20 @@
+.App {
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 5px;
+}
+
+  .App >.div {
+  border: 1px solid red;
+  text-align: center;
+  padding: 20x;
+  margin: auto;
+}
+.div > img {
+  width: 40%;
+}
+ #root >.App{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 5px;
+} 
