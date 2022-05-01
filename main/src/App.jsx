@@ -1,7 +1,7 @@
 import  './App.css'
 import axios from "axios";
 import { useState } from "react";
-import { navBar } from "./components/navbar.jsx"
+import { NavBar } from "./components/navbar.jsx"
 function App() {
   const [data, setData] = useState([]);
   
@@ -16,7 +16,7 @@ function App() {
   return (
     <div id="root">
       <button onClick={News}>News</button>
-     <navBar/>
+     <NavBar/>
       {data.map((e, i) => {
         return (
           // <div id="pic">
